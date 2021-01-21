@@ -1,0 +1,38 @@
+Running 0 fold(s)
+Running with arguments:
+crohns_or_polyps: Crohns_MRI
+base: ./
+train_datapath: ./CrohnsDisease/test_data_train_fold.tfrecords
+test_datapath: ./CrohnsDisease/test_data_test_fold.tfrecords
+record_shape: 37,99,99
+feature_shape: 31,87,87
+fold:
+batch_size: 32
+logdir: CrohnsDisease/log_attention/2020-04-06_12:48:19/
+num_batches: 1200
+attention: 1
+mode: test
+model_path: ./trained_models/
+Batch features (?, 31, 87, 87)
+(?, 64, 16, 44, 44)
+(?, 64, 16, 44, 44)
+(?, 64, 16, 44, 44)
+(?, 128, 8, 22, 22)
+(?, 128, 8, 22, 22)
+(?, 128, 8, 22, 22)
+(?, 256, 4, 11, 11)
+(?, 256, 4, 11, 11)
+(?, 256, 4, 11, 11)
+Pooled shape (?, 256, 1, 1, 1)
+Classification output shape (?, 2)
+Attention Layer: feature shape (?, 64, 16, 44, 44), gate shape (?, 256, 4, 11, 11)
+Classification output shape (?, 2)
+Loaded network from ././trained_models/
+Inferring prediction from image: ./data/A1 Axial T2.nii at coordinates [130, 150, 26]
+Preprocessing...
+Cropping to Ileum...
+cropped (105, 105, 29)
+Showing data...
+Resampling volumes to [99, 99, 37]
+Patient is predicted to be healthy with probability 0.529
+*****************finsihed************
