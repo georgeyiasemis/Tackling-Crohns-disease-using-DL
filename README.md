@@ -40,7 +40,7 @@ The following software is presented in this repo:
 
 ## User Interface
 
-![arch](https://github.com/georgeyiasemis/Tackling-Crohns-disease-using-DL/-/raw/master/front-end-scrn.png "User interface")
+![arch](https://github.com/georgeyiasemis/Tackling-Crohns-disease-using-DL/blob/main/front-end-scrn.png "User interface")
 
 
 ## Product Architecture 
