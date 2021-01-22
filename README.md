@@ -45,7 +45,7 @@ The following software is presented in this repo:
 
 ## Product Architecture 
 
-![arch](https://github.com/georgeyiasemis/Tackling-Crohns-disease-using-DL/-/raw/master/architecture.png "Product architecture schematic")
+![arch](https://github.com/georgeyiasemis/Tackling-Crohns-disease-using-DL/blob/main/architecture.png "Product architecture schematic")
 
 Each component of the application is contained within its own docker container, and communicate through docker container networking. 
 
