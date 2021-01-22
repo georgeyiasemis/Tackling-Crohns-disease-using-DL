@@ -114,6 +114,7 @@ A brief explanation of the important files
 
 - `/start-app/start_tfserving_container_gpu.sh` - Shell script for spinning up GPU <strong> and </strong> CPU-compatible tensorflow serving image. 
     - NOTE: both shell scripts serve exactly the same model. The difference is in the initalisation of the container. `start_tfserving_container_gpu.sh` requires a GPU to initialise the container.
+- `/CrohnsDisease/trained_models`, `/CrohnsDisease/trained_modelsinherited` and `/start-app/serving_models/1/saved_models` should be unzipped when downloaded.
 
 
 
